@@ -1,4 +1,4 @@
-# 🏗️ Medallion SQL Warehouse & Analytics Project
+# 🏗️ Medallion SQL Warehouse
 
 An end-to-end data warehousing and analytics solution built on **SQL Server**, taking raw CRM and ERP data through a **Medallion Architecture** (Bronze → Silver → Gold) into a business-ready star schema for reporting and analysis.
 
@@ -70,7 +70,7 @@ Consolidate CRM and ERP sales data from two source systems into a single, well-m
 ## 📂 Repository Structure
 
 ```
-Medallion SQL Warehouse/
+sql-data-warehouse-project/
 │
 ├── datasets/                  # Raw source data (CRM & ERP CSV files)
 │
