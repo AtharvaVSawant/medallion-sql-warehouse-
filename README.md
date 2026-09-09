@@ -10,13 +10,15 @@ This is a portfolio project demonstrating practical data engineering skills: ETL
 
 The warehouse follows the **Medallion Architecture**, with each layer serving a distinct purpose:
 
+![Data Architecture](docs/data_architecture.png)
+
+
 | Layer | Purpose | Description |
 |-------|---------|-------------|
 | 🥉 **Bronze** | Raw ingestion | Data loaded as-is from source CSV files (CRM & ERP) into SQL Server, with no transformations, for full traceability. |
 | 🥈 **Silver** | Cleansing & standardization | Data is cleaned, deduplicated, standardized, and normalized to prepare it for analysis. |
 | 🥇 **Gold** | Business-ready | Data modeled into a **star schema** (fact & dimension tables/views) optimized for reporting and analytics. |
 
-![Data Architecture](docs/data_architecture.png)
 
 ```
 CSV Sources (CRM + ERP)
