@@ -16,6 +16,8 @@ The warehouse follows the **Medallion Architecture**, with each layer serving a 
 | 🥈 **Silver** | Cleansing & standardization | Data is cleaned, deduplicated, standardized, and normalized to prepare it for analysis. |
 | 🥇 **Gold** | Business-ready | Data modeled into a **star schema** (fact & dimension tables/views) optimized for reporting and analytics. |
 
+![Data Architecture](docs/data_architecture.png)
+
 ```
 CSV Sources (CRM + ERP)
         │
