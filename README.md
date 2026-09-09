@@ -1,4 +1,4 @@
-# 🏗️ SQL Data Warehouse & Analytics Project
+# 🏗️ Medallion SQL Warehouse & Analytics Project
 
 An end-to-end data warehousing and analytics solution built on **SQL Server**, taking raw CRM and ERP data through a **Medallion Architecture** (Bronze → Silver → Gold) into a business-ready star schema for reporting and analysis.
 
@@ -70,7 +70,7 @@ Consolidate CRM and ERP sales data from two source systems into a single, well-m
 ## 📂 Repository Structure
 
 ```
-sql-data-warehouse-project/
+Medallion SQL Warehouse/
 │
 ├── datasets/                  # Raw source data (CRM & ERP CSV files)
 │
@@ -101,7 +101,7 @@ sql-data-warehouse-project/
 1. **Set up SQL Server**: Install SQL Server Express and SSMS.
 2. **Clone the repo**:
    ```bash
-   git clone https://github.com/AtharvaVSawant/sql-data-warehouse-project.git
+   git clone https://github.com/AtharvaVSawant/medallion-sql-warehouse.git
    ```
 3. **Run the Bronze scripts** (`scripts/bronze/`) to create schemas and load raw CSVs from `datasets/`.
 4. **Run the Silver scripts** (`scripts/silver/`) to clean and standardize the data.
